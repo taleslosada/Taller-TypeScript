@@ -1,7 +1,7 @@
-import { Serie } from './serie.js';
-import { series } from './Data.js';
+import { series } from "./Data.js";
+import { Serie } from "./serie.js"
 
-let seriesTable: HTMLElement = document.getElementById('series')!;
+let seriesTable: HTMLElement = document.getElementById("series")!;
 mostrarDatosSeries(series);
 mostrarPromedioTemporadas(series);
 
